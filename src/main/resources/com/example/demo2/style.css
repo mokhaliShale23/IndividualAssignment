@@ -1,0 +1,81 @@
+
+.root {
+    -fx-background-color:white;
+}
+.button:hover{
+-fx-color:red;
+}
+.plays {
+
+    -fx-background-color:Blue;
+
+    /*-fx-graphic:url(/pause.png);*/
+}
+#stops {
+
+    -fx-background-color:Blue;
+
+    /*-fx-graphic:url(/pause.png);*/
+}
+#pauses{
+-fx-background-color:Blue;
+-fx-fill-text:12px;
+
+}
+.box{
+-fx-background-color:transparent;
+
+-fx-font-size: 20px;
+    -fx-text-fill: #EEEEEE;
+    -fx-cursor: hand;
+    -fx-alignment:center;
+}
+
+
+#bar{
+-fx-padding-left:20px;
+-fx-margin-right:20px;
+
+}
+#skip{
+    -fx-fill-text:10px;
+    -fx-width:10px;
+    -fx-background-color:Blue;
+    -fx-height:87766px;
+}
+
+/#tips{
+-fx-transition-duration:.2s;
+-fx-transition-delay:.2s;
+-fx-show-delay:.2s;
+
+}
+#back{
+-fx-background-color:Blue;
+}
+#bars{
+  -fx-webkit-appearance:none;
+  -fx-width:100%;
+  -fx-height:25px;
+  -fx-background:#d3d3d3;
+  -fx-outline:none;
+  -fx-opacity:0.7;
+  -fx-webkit-transition:.2s;
+  -fx-transition:opacity.2s;
+}
+#bars:hover{
+    opacity:1;
+}
+#bars::-webkit-slider-thumb{
+   -fx-webkit-appearance:none;
+   -fx-width:25px;
+   -fx-height:25px;
+   -fx-background:#04AA6D;
+   -fx-cursor:hand;
+}
+#bars::-moz-range-thumb{
+-fx-width:25px;
+-fx-height:25px;
+-fx-background:#04AA6D;
+-fx-cursor:hand;
+}
